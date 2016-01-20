@@ -1,0 +1,33 @@
+body{
+    background-image:url("../img/zwartevilt.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-style:Comic Sans MS;
+    text-align:center;
+}
+
+.entete{
+    text-align:center;
+    color:black;
+    border-style:groove;
+    background-color:#ccc8c0;
+    margin-bottom:40px;
+}
+
+.texte {
+    background-color:#a6a6a6;
+    border:1px groove black;
+    padding: 5px;
+}
+
+#choixordi{
+    font-size:20px;
+}
+
+#votrechoix{
+    font-size:20px;
+}
+
+#choix{
+    cursor:pointer;
+}

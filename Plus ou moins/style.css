@@ -1,0 +1,24 @@
+
+body {
+    padding-top:250px;
+    background-image: url("../img/zwartevilt.png");
+}
+#centrale {
+    border:1px black solid;
+    padding-bottom:25px;
+    padding-top:10px;
+    background-color:white;
+}
+#proposition {
+    margin: 1em;
+    height: 2em;
+    padding-left: 0.5em;
+    margin-left:30%;
+}
+
+#resultat {
+    margin: 0 1em;
+    line-height: 2em;
+    padding-left: 0.5em;
+    text-align: center;
+}

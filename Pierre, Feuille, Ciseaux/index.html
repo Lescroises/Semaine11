@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pierre Papier Ciseaux</title>
+        <link rel="stylesheet" href="style.css" text=text/css>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+
+<header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+				<div class="entete">
+					<h1>Pierre Papier Ciseaux</h1>
+				</div>
+            </div>
+    </header>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 texte">
+                    <h3>ORDI:</h3>
+                    <br>
+                        <img src="choix.png" name="choixordi" id="choixordi" alt="Je suis prêt !
+                        Je vous attends ;-)">
+                        
+                </div>
+                <div class="col-xs-4 texte">
+                    <div id="choix">
+                    <h3>VOS CHOIX:</h3>
+                        <br>
+                            <img src="../img/choix1.png" onClick="Votrechoix(1)" alt="PIERRE">
+                            <img src="../img/choix2.png" onClick="Votrechoix(2)" alt="PAPIER">
+                            <img src="../img/choix3.png" onClick="Votrechoix(3)" alt="CISEAUX">
+                        <br>
+                </div>
+                </div>
+                <div class="col-xs-4 texte">
+                    <h3>VOUS AVEZ CHOISI:</h3>
+                        <br>
+                            <img src="choix.png" name="votrechoix" id="votrechoix" alt="Choisissez bien !">
+            </div>
+        </div>
+        
+        <script src="jscript.js"></script>
+    </body>
+</html>
